@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load data
-csv_features = "/home/mecaliff/Bureau/5A/Apprentissage/AS/acsincome_ca_features.csv"
-csv_labels = "/home/mecaliff/Bureau/5A/Apprentissage/AS/acsincome_ca_labels.csv"
+csv_features = "./Dataset/acsincome_ca_features.csv"
+csv_labels = "./Dataset/acsincome_ca_labels.csv"
 features = pd.read_csv(csv_features)
 labels = pd.read_csv(csv_labels)
 
